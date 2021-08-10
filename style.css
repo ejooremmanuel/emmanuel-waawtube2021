@@ -196,6 +196,9 @@ span {
     .header__other .sm {
         display: inline;
     }
+    .header__other .show {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -208,6 +211,9 @@ span {
     .showhide {
         display: block;
         position: fixed;
+    }
+    .header__other .show {
+        display: block;
     }
 }
 
